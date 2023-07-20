@@ -1,0 +1,1334 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  color: black !important;
+  font-weight: 400 !important;
+}
+
+ul {
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+a,
+a:focus,
+a:hover {
+  text-decoration: none;
+  outline: 0;
+}
+
+.container {
+  max-width: 1270px !important;
+}
+
+/* Header Section Css Start */
+
+.navbar-brand img {
+  width: 200px;
+  object-fit: cover;
+}
+
+nav.navbar.navbar-expand-sm {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  top: 0;
+  height: 90px;
+  padding: 0px 20px;
+}
+
+#collapsibleNavbar a.nav-link,
+a.navbar-brand {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#collapsibleNavbar a.nav-link:hover,
+#collapsibleNavbar a.nav-link:active,
+#collapsibleNavbar a.nav-link:focus {
+  color: #E21818;
+}
+
+#collapsibleNavbar {
+  justify-content: right;
+}
+
+#collapsibleNavbar li {
+  padding-left: 20px;
+}
+
+.avtar a.nav-link {
+  color: black !important;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.avtar a.nav-link:hover {
+  background-color: #E21818 !important;
+  color: white !important;
+}
+
+.underlinks li {
+  padding: 0px !important;
+  color: white !important;
+}
+
+.underlinks a:hover {
+  background-color: #E21818;
+  color: white;
+}
+
+#collapsibleNavbar ul.dropdown-menu.underlinks.show {
+  padding: 0px;
+  margin: 0px;
+  background-color: white;
+  left: 15px;
+  overflow: hidden;
+  color: black !important;
+}
+
+a.dropdown-item {
+  color: black;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.avtar img.rounded-circle {
+  width: 40px;
+  object-fit: cover;
+}
+
+.navbar ul.navbar-nav {
+  align-items: center;
+}
+
+.avtar .dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.avtar a.dropdown-toggle-grey {
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+
+.avtar a.dropdown-toggle-grey:hover,
+.avtar a.dropdown-toggle-grey:active {
+  color: #E21818;
+}
+
+.avtar i.fas.fa-chevron-down {
+  padding-left: 5px;
+  font-size: 16px;
+}
+
+.avtar .dropdown-menu.show {
+  background-color: white !important;
+  color: black;
+  top: 40px;
+  left: 0px;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.avtar .dropdown-menu.show:hover {
+  background-color: #E21818 !important;
+  color: white !important;
+  border-radius: 5px;
+}
+
+.avtar .dropdown-menu.show a.dropdown-item {
+  padding: 5px 10px;
+}
+
+header+.CardSection {
+  margin-top: 50px;
+}
+
+/* Header Section Css End */
+
+/* Heros Section Css Start */
+
+.hero-wrapper {
+  padding-top: 50px;
+  position: relative;
+}
+
+.hero-wrapper-image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero-wrapper-content {
+  position: absolute;
+}
+
+.hero-wrapper-content {
+  position: absolute;
+  top: 30%;
+  color: white;
+  left: 145px;
+}
+
+.hero-wrapper-content h1 {
+  max-width: 400px;
+  font-size: 60px !important;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-wrapper-content p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  max-width: 650px;
+}
+
+.btn.Registerbtn {
+  background-color: #E21818;
+  color: white;
+  padding: 13px 50px;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px 0px;
+}
+
+.btn.Registerbtn:focus,
+.btn.Registerbtn:active {
+  box-shadow: none;
+  outline: none;
+  border: 1px solid #E21818 !important;
+  background-color: #BD2000 !important;
+}
+
+.btn.Registerbtn:hover {
+  background-color: #BD2000;
+  color: white;
+}
+
+/* Heros Section Css END */
+
+
+/* Signin Section CSS START */
+
+.form-control:focus,
+.form-control:hover {
+  border: 1px solid #78787885 !important;
+}
+
+
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #00000094;
+  z-index: -1;
+}
+
+/* CSS given by Amresh Start */
+
+.modal-content {
+  background-color: unset !important;
+  background-clip: unset !important;
+  border: unset !important;
+  border-radius: unset !important;
+  outline: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CSS given by Amresh End */
+
+.Auth-form {
+  width: 450px;
+  box-shadow: 0px 6px 18px 0px rgba(16, 5, 54, 0.17);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+
+.Auth-form-content input.form-control {
+  padding: 10px;
+  background: white;
+}
+
+.Auth-form-content .form-control[type=file]:not(:disabled):not([readonly]) {
+  padding: 0px;
+}
+
+.Auth-form-content input[type=file]::file-selector-button {
+  padding: 16px 10px 16px 20px;
+}
+
+.Auth-form-content input.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.Auth-form-content {
+  padding: 0px 30px;
+}
+
+.text-center.Auth-form-text span {
+  color: #E21818;
+  cursor: pointer;
+}
+
+.text-center.Auth-form-text span:hover {
+  text-decoration: underline;
+}
+
+.Auth-form-title {
+  text-align: center;
+  font-size: 26px;
+  color: black;
+  font-weight: 800;
+}
+
+.Auth-form-text p {
+  margin-bottom: 30px;
+}
+
+.Auth-form-content label {
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+  padding: 0px 0px;
+}
+
+.forgotlink a {
+  text-decoration: none;
+  display: flex;
+  justify-content: end;
+  color: #2192FF;
+}
+
+.forgotlink a:hover {
+  color: #0d7be3;
+  text-decoration: underline;
+}
+
+.submitbtn .btn {
+  background-color: #E21818;
+  color: white !important;
+  font-weight: 600;
+  padding: 13px 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.submitbtn .btn:hover {
+  background-color: #BD2000;
+}
+
+.submitbtn .btn:focus {
+  background-color: #BD2000 !important;
+  box-shadow: none;
+  outline: none;
+}
+
+.form-text p {
+  color: black;
+  margin: 0px;
+  text-align: justify;
+}
+
+.form-text p a {
+  text-decoration: none;
+  color: #2192FF;
+  font-weight: bold;
+}
+
+.form-text p a:hover {
+  color: #0d7be3;
+}
+
+/* Signin Section CSS END */
+
+
+/* CardSection Section CSS START */
+.CardSection {
+  padding: 100px 0px;
+}
+
+.Cardinfo-Wrapper {
+  padding-bottom: 50px;
+}
+
+.Cardinfo-Wrapper span {
+  color: #E21818;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.Cardinfo-Wrapper h4 span {
+  font-size: 40px !important;
+  font-weight: bold;
+  color: black;
+}
+
+.Cardinfo-Wrapper h4 {
+  margin-top: 10px;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.card {
+  margin-bottom: 25px !important;
+  position: relative !important;
+  box-shadow: 2px 2px 8px #6e6b6b60 !important;
+  transition: 0.3s;
+  border-radius: 10px !important;
+}
+
+div#AuctionPage {
+  padding-bottom: 50px;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 15px #5151518f !important;
+  transition: 0.2s ease-in;
+}
+
+.PriceSubmit {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardRate span {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.cardRate {
+  background-color: #0EAA00;
+  border-radius: 20px;
+  color: white;
+  width: 100px;
+  padding: 5px 15px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Cardcontent-Wrapper img.card-img {
+  width: 100% !important;
+  height: 200px !important;
+  object-fit: cover !important;
+  border-radius: 5px 5px 0px 0px !important;
+}
+
+h4.card-title {
+  font-weight: 600 !important;
+  font-size: 22px !important;
+  margin-bottom: 8px;
+}
+
+button.Bidbtn {
+  border-color: #E21818;
+  background-color: white;
+  color: #E21818;
+  font-size: 16px;
+  padding: 2px 15px;
+  border-radius: 20px;
+  width: 150px;
+  font-weight: 600;
+}
+
+button.Bidbtn:hover {
+  border: 1px solid #E21818;
+  background-color: #E21818;
+  color: white;
+}
+
+button.Bidbtn:active {
+  box-shadow: none !important;
+  outline: none !important;
+  background-color: #E21818 !important;
+  color: white !important;
+  border: none !important;
+}
+
+.card-body {
+  padding-bottom: 30px !important;
+}
+
+.card-body i.fas.fa-gavel {
+  padding-right: 5px;
+}
+
+.card-body p {
+  color: #7b7b7b;
+  border: 1px solid #787878;
+  padding: 2px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+span.card-timer {
+  font-size: 16px;
+  font-weight: 500;
+  color: #7b7b7b;
+}
+
+.bidstimer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.unavailable {
+  background-color: lightgrey;
+  width: 100%;
+  cursor: not-allowed;
+}
+
+.unavailable span {
+  color: #828080;
+}
+
+.cardtext span {
+  font-size: 16px;
+  display: block;
+  padding-bottom: 15px;
+  color: gray;
+}
+
+.Cardbidbtn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-body p.card-text {
+  color: #968080;
+}
+
+/* CardSection Section CSS END */
+
+
+/* My Account css Start*/
+
+.MyAccount {
+  padding: 100px 0px;
+}
+
+.leftMenu.sticky-menu {
+  position: sticky;
+  top: 100px;
+}
+
+.Breadcrumb {
+  margin: 50px 0px;
+}
+
+.breadcrumb a {
+  color: black;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.breadcrumb a:hover {
+  color: #E21818;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  display: none;
+}
+
+.leftMenu {
+  background-color: #ffffff;
+  box-shadow: 0px 6px 18px 0px rgba(16, 5, 54, 0.17);
+  color: black;
+  padding: 50px 50px;
+  border-radius: 20px;
+}
+
+.leftMenu a.nav-link {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 20px;
+  display: inline-flex;
+  justify-content: left;
+  align-items: baseline;
+  width: 100%;
+}
+
+span.leftmenuIcon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 25px;
+  margin-right: 10px;
+  color: black !important;
+}
+
+.leftMenu a.nav-link:hover {
+  background-color: #E21818;
+  color: white;
+}
+
+.leftMenu a.nav-link:hover span.leftmenuIcon {
+  color: white !important;
+}
+
+.leftMenu li.nav-item {
+  margin-bottom: 10px;
+}
+
+.leftMenu h4.userName {
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+.leftMenu span {
+  color: #988c8c;
+  font-weight: 500;
+}
+
+.leftMenu ul.nav.flex-column {
+  padding-top: 50px;
+}
+
+.mybidSection,
+.mybidSection-content {
+  padding: 20px;
+}
+
+.mybidSection-content {
+  box-shadow: 0px 6px 18px 0px rgba(16, 5, 54, 0.17);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.mybidSection h4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.mybidSection li.nav-item {
+  padding-right: 20px;
+}
+
+.mybidSection a.nav-link {
+  color: black;
+  font-size: 20px;
+  background-color: #0000000f !important;
+  padding: 15px 40px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mybidSection a.nav-link:hover {
+  background-color: #00000017 !important;
+}
+
+.mybidSection a.nav-link.active {
+  background-color: #E21818 !important;
+  color: white !important;
+}
+
+.mybidSection ul.nav.nav-tabs {
+  border: none;
+}
+
+.mybidSection-content img.card-img {
+  width: 100% !important;
+  height: 250px !important;
+  object-fit: cover !important;
+  border-radius: 10px 10px 0px 0px;
+}
+
+p#Timer {
+  font-size: 20px;
+  font-weight: bold;
+  color: #BD2000;
+}
+
+.winbidSection .input-group {
+  display: inline-block;
+  position: relative;
+}
+
+.form-outline input {
+  padding: 10px 50px 10px 20px;
+  border-radius: 20px;
+}
+
+.form-outline input:focus,
+.form-outline input:hover {
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #E21818;
+}
+
+.winbidSection .input-group .btn.search {
+  border-radius: 20px;
+  background-color: #E21818;
+  color: white;
+  position: absolute;
+  border: none;
+  top: 0;
+  right: 0;
+  padding: 11px 30px;
+}
+
+.winbidSection .input-group .btn.search:hover {
+  background-color: #BD2000;
+}
+
+.myordertab .card-body span.card-timer {
+  display: none;
+}
+
+.myordertab .card-body .PriceSubmit {
+  display: none;
+}
+
+.Wintab .card-body span.card-timer {
+  display: none;
+}
+
+
+.mybidSection-content .card-body h5 {
+  font-weight: 500;
+  background-color: #f1f1f1;
+  padding: 10px 0px;
+  border-radius: 10px;
+  color: #828282;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* My Account css end*/
+
+
+/* Buyer Form Bid CSS Start */
+
+
+textarea.productDescription:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+#productPhoto {
+  position: relative;
+}
+
+#productPhoto::-webkit-file-upload-button {
+  position: absolute;
+  padding: 10px;
+  right: -13px;
+  top: 6px;
+  border-radius: 5px;
+}
+
+.Sellingform {
+  position: relative;
+}
+
+
+/* Buyer Form Bid CSS END */
+
+
+
+/* Contact Us CSS START */
+
+#ContactusSection {
+  padding: 100px 0px;
+}
+
+.Contactus-Page {
+  background-color: white !important;
+  color: black !important;
+  padding: 50px;
+  box-shadow: 0px 6px 18px 0px rgba(16, 5, 54, 0.17);
+}
+
+.Contactus-Page h4 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.Contactus-Page .Auth-form-content label {
+  color: black;
+}
+
+.Contactus-Page .Auth-form-content {
+  padding: 0px;
+  margin-right: 40px;
+}
+
+.Contactus-Page .contact-info {
+  padding-top: 20px;
+}
+
+li.Heading-Content {
+  padding-bottom: 10px;
+}
+
+.Contactus-Page .contact-info li.Heading h6 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.Contactus-Page .contact-info li.Heading-Content p {
+  color: black;
+  font-size: 16px;
+  margin-bottom: 0px;
+  line-height: 40px;
+}
+
+.MapSection {
+  padding-bottom: 50px;
+  border-radius: 20px;
+}
+
+.MapSection h4 {
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.MapSection iframe.gmap_iframe {
+  border-radius: 20px;
+  width: 100%;
+  height: 250px;
+}
+
+textarea.productDescription {
+  resize: none;
+}
+
+.Heading-Content i.fas {
+  color: #E21818;
+  font-size: 16px;
+  padding-right: 10px;
+}
+
+/* Contact Us CSS END */
+
+
+
+/* Footer CSS START */
+.footerSection {
+  background-image: url(/public/images/footerimage.jpg);
+  width: 100%;
+  content: "";
+  color: white;
+  padding: 50px;
+}
+
+img.footerLogo {
+  width: 100px;
+  object-fit: cover;
+  padding-bottom: 20px;
+}
+
+.social-icons i.fab {
+  font-size: 25px;
+  color: white;
+}
+
+.social-icons {
+  padding: 10px 0px;
+}
+
+.footerContent li {
+  margin-bottom: 10px;
+}
+
+.footerContent p {
+  margin-bottom: 0px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.social-icons a {
+  margin-right: 15px;
+}
+
+.social-icons a i {
+  font-size: 30px;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+}
+
+.social-icons a:hover i {
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.3);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.3);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.3);
+  transition: all 200ms ease-in;
+  transform: scale(1.3);
+}
+
+.footerContent h6 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.footerContent i.fas {
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+.footerContent a {
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.footerContent a:hover {
+  color: #E21818;
+}
+
+.newsletter-footer input.email {
+  border: 0;
+  padding: 10px 15px;
+  font-weight: 500;
+  font-size: 14px;
+  outline: 0;
+  width: 70%;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.newsletter-footer input.submit {
+  background: #E21818;
+  border: 0;
+  color: white;
+  padding: 10px 0px;
+  width: 30%;
+  font-size: 14px;
+  outline: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.newsletter-footer input.submit:hover {
+  background-color: #BD2000;
+}
+
+/* Footer CSS END */
+
+
+/* Copyright CSS START */
+
+.CopyrightSection {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.CopyrightSection p {
+  margin-bottom: 0px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+
+/* Copyright CSS END */
+
+
+/* Product Sell CSS START */
+
+
+/* Product Sell CSS END */
+
+
+/* About Us CSS START */
+
+#aboutustab {
+  padding: 100px 0px;
+}
+
+.Aboutus-Experience {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  padding: 50px;
+  box-shadow: 0px 6px 18px 0px rgba(16, 5, 54, 0.17);
+}
+
+.Aboutus-Image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.Aboutus-Content h5 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Aboutus-Content h4 {
+  font-size: 35px;
+  color: #E21818;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Aboutus-Content h3 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Aboutus-Award {
+  display: flex;
+  align-items: end;
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.Award-Content {
+  padding-right: 50px;
+}
+
+.Award-Content p {
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.Award-Image {
+  padding-bottom: 10px;
+}
+
+.Aboutus-Content {
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.StartSelling {
+  position: relative;
+  margin: 50px 0px;
+}
+
+.StartSelling img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.StartSelling-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.StartSelling-content h4 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.StartSelling-content p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.StartSelling-content .btn.Registerbtn {
+  padding: 10px 20px;
+}
+
+.StartSelling-content .btn.Registerbtn {
+  padding: 10px 50px;
+}
+
+.Item-Auctioned {
+  padding: 50px 0px;
+}
+
+.Item-AuctionContent {
+  padding: 20px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #0d7be3;
+  flex-direction: column;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.ItemAuction {
+  margin-top: 50px;
+}
+
+.Item-AuctionContent:hover {
+  background: -webkit-linear-gradient(88deg, #432eb9 4%, #6e48d3 58%, #9961ec 100%) !important;
+  color: white;
+  border: none;
+  transition: 0.3s;
+}
+
+.Item-AuctionContent h4 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.Item-AuctionContent p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.Aboutus-Image {
+  background-color: white;
+}
+
+/* About Us CSS END */
+
+
+/* Product Sell CSS START */
+#ProductSell {
+  padding: 100px 0px;
+}
+
+.ProductSell-Section {
+  background-color: white !important;
+  color: black !important;
+  padding: 50px;
+  box-shadow: 0px 6px 18px 0px rgba(16, 5, 54, 0.17);
+}
+
+.slider-image img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+.slider-image {
+  border-radius: 5px !important;
+  overflow: hidden;
+}
+
+.slick-dots li button:before {
+  font-size: 10px !important;
+}
+
+/* 
+.slider .slick-prev,
+.slider .slick-next {
+  background-color: black;
+  color: white;
+}
+*/
+.price-table li.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider-content h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.slider-content p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #787878;
+  text-align: justify;
+}
+
+.header span.details,
+.header h5.info {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.slider-content {
+  padding-left: 30px;
+}
+
+.slider-content button.Bidbtn {
+  padding: 15px 30px;
+  width: 100%;
+}
+
+.slider-content .Cardbidbtn {
+  justify-content: end;
+}
+
+.amountpay {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider-content .form-outline {
+  width: 70%;
+}
+
+.slider-content .form-outline input {
+  padding: 15px;
+}
+
+/* Product Sell CSS END */
+
+.modal-header {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--bs-modal-header-padding);
+  border-bottom: var(--bs-modal-header-border-width) solid var(--bs-modal-header-border-color);
+  border-radius: var(--bs-modal-inner-border-radius) !important;
+  border-top-right-radius: var(--bs-modal-inner-border-radius);
+  color: white;
+  border: 2px solid aliceblue;
+}
+
+
+/* Login Successful Modal Start */
+
+
+.login-success-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 900;
+
+}
+
+.login-success-modal .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-image img {
+  width: 80px;
+  object-fit: cover;
+}
+
+.login-content h1 {
+  font-size: 25px;
+  padding-top: 20px;
+  font-weight: 800;
+}
+
+.login-modal {
+  margin: auto;
+  background-color: white;
+  width: 400px;
+  height: 300px;
+  color: rgb(17, 17, 17);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 2px 2px 15px #5151518f !important;
+}
+
+.login-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-content button.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  background-color: red;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.login-content button.btn:hover {
+  background-color: #BD2000;
+  color: white;
+}
+
+/* Login Successful Modal End */
+
+
+/* Payment gateway Section Start */
+
+.paymentSection {
+  box-shadow: 0px 6px 18px 0px rgba(16, 5, 54, 0.17);
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  padding: 50px;
+  margin: 50px 0px;
+}
+
+.paymentSection .form-control:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+/* Payment gateway Section End */
