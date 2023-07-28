@@ -1,0 +1,98 @@
+.product-detail-container {
+    display: flex;
+    margin: 20px;
+  }
+  
+  .product-image {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .product-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-specs {
+    flex: 2;
+  }
+  
+  .product-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .spec-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .spec-list li {
+    margin-bottom: 5px;
+  }
+  /* clock.css */
+
+/* Add your CSS styles for the form here */
+.product-detail-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.product-image {
+  margin-right: 20px;
+}
+
+.product-image img {
+  width: 300px;
+  height: auto;
+}
+
+.product-specs {
+  flex: 1;
+}
+
+.product-name {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.spec-list {
+  list-style: none;
+  padding: 0;
+}
+
+.spec-list li {
+  margin-bottom: 20px;
+}
+
+/* Styles for form elements */
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="email"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Adjust the styles as needed to match your design */
